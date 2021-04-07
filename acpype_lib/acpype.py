@@ -2129,7 +2129,7 @@ Usage: antechamber -i   input file name
         if exten == "mol":
             exten = "mdl"
 
-        cmd = "%s -dr no -i %s -fi %s -o %s -fo mol2 %s -nc %s -m %s -s 2 -df %s -at %s -pf y %s" % (
+        cmd = "%s -dr no -i %s -fi %s -o %s -fo mol2 %s -nc %s -m %s -s 2 -df %s -at %s -pf y %s -j 5" % (
             self.acExe,
             self.inputFile,
             exten,
